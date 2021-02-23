@@ -48,12 +48,14 @@ https://modis.gsfc.nasa.gov/data/dataprod/mod17.php
 The NEON website provides a variety of tools and methods for working with the LIDAR data on their site. While most of these tutorials are in R, they will be useful for working with the data of interest and bring me closer to my expected outcomes. 
 https://www.neonscience.org/resources/learning-hub/tutorials
 
-I plan on using the python packages numpy, pandas, gdal, matplotlib, and os. 
+I plan on using the python packages numpy, pandas, gdal, matplotlib, and os. I will also use the neonUtilities package - a package developed by NEON in R. To use this in python, I will use the rpy2 package. 
+
+https://www.neonscience.org/resources/learning-hub/tutorials/neon-utilities-python
 
 ## Methodology
-To compute biomass, I will use the LIDAR data to derive the canopy height values from lidar data. I will create a mask layer of all vegetation points to segment the watershed and then determine individual trees. I will use the method described in the following link to define predictor variables based on the properties of the trees in the watershed (area, diameter, maximum tree height, and minimum tree height). Biomass will be calculated according to formulas in Jenkins et al. (2003). This will result in a plot of the biomass at each site as well as a mass of total biomass. 
+To compute biomass, I will use the LIDAR data to derive the canopy height values from lidar data. I will create a mask layer of all vegetation points to segment the watershed and then determine individual trees. I will use the method described in the following link to define predictor variables based on the properties of the trees in the watershed (area, diameter, maximum tree height, and minimum tree height). Biomass will be calculated according to formulas in Jenkins et al. (2003). This will result in a plot of the biomass at each site as well as a mass of total biomass weight. 
 
-https://www.neonscience.org/resources/learning-hub/tutorials/calc-biomass-py 
+https://www.neonscience.org/resources/learning-hub/tutorials/calc-biomass-py
 
 
 ## Expected outcomes
