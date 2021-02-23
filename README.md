@@ -57,6 +57,7 @@ To compute biomass, I will use the LIDAR data to derive the canopy height values
 
 https://www.neonscience.org/resources/learning-hub/tutorials/calc-biomass-py
 
+To gain an understanding of net and gross primary productivity, I will map the fPAR, LAI, and NDVI datasets available on the NEON site as well as the MODIS GPP/NPP dataset available from NASA. The CASA model has been used to estimate NPP and GPP from Lidar and climate data, althought this may be out of the scope of this project. I hope to use these data sets to at least gain a broad understanding of what is going on at each site.  
 
 ## Expected outcomes
 The project will answer the questions in the problem statement with maps for total biomass, net primary productivity, and gross primary productivty at each site. The project will also compare outcomes of each site to each other to gain a broad understanding of the terrestrial transport of carbon in each watershed. 
@@ -70,3 +71,7 @@ https://modis.gsfc.nasa.gov/data/dataprod/mod17.php
 Jenkins et al., 2003
 
 https://www.fs.fed.us/ne/newtown_square/publications/technical_reports/pdfs/2004/ne_gtr319.pdf
+
+CASA model
+
+https://link.springer.com/article/10.1186/s13021-016-0049-6
