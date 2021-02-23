@@ -42,15 +42,21 @@ https://data.neonscience.org/data-products/DP2.30012.001
 Vegetation indices - NDVI - Normalized ratio of NIR and IR bands
 https://data.neonscience.org/data-products/DP2.30026.001
 
-## The Tools
+MODIS Gross Primary Productivity (GPP) / Net Primary Production (NPP)
+https://modis.gsfc.nasa.gov/data/dataprod/mod17.php
 
+## The Tools
+The NEON website provides a variety of tools and methods for working with the LIDAR data on their site. While most of these tutorials are in R, they will be useful for working with the data of interest and bring me closer to my expected outcomes. 
+https://www.neonscience.org/resources/learning-hub/tutorials
+
+I plan on using the python packages numpy, pandas, gdal, matplotlib, and os. 
 
 ## Methodology
-
+To compute biomass, I will use the LIDAR data to derive the canopy height values from lidar data. I will create a mask layer of all vegetation points to segment the watershed. 
 
 ## Expected outcomes
 The project will answer the questions in the problem statement with maps for total biomass, net primary productivity, and gross primary productivty at each site. 
 
-Any other relevant information, images/tables, references, etc.
 ## References
 https://data.neonscience.org/ 
+https://modis.gsfc.nasa.gov/data/dataprod/mod17.php
