@@ -27,7 +27,6 @@ This project will attempt establish the differences between the five sites in te
 * What is the gross primary productivity at each site? 
 
 ## The Data 
-Datasets you will use (with links, if available)
 Neon collects multiple data sets with their Airborne Observation Platform (AOP). The data is processed at different levels and includes a discrete and full-waveform lidar to provide 3-D information about the landscape and an imaging spectrometer to allow discrimation of land cover types and vegetation. I will look at the following data for this project:
 
 Elevation - LiDAR 
@@ -52,11 +51,19 @@ https://www.neonscience.org/resources/learning-hub/tutorials
 I plan on using the python packages numpy, pandas, gdal, matplotlib, and os. 
 
 ## Methodology
-To compute biomass, I will use the LIDAR data to derive the canopy height values from lidar data. I will create a mask layer of all vegetation points to segment the watershed. 
+To compute biomass, I will use the LIDAR data to derive the canopy height values from lidar data. I will create a mask layer of all vegetation points to segment the watershed and then determine individual trees. I will use the method described in the following link to define predictor variables based on the properties of the trees in the watershed (area, diameter, maximum tree height, and minimum tree height). Biomass will be calculated according to formulas in Jenkins et al. (2003). This will result in a plot of the biomass at each site as well as a mass of total biomass. 
+
+https://www.neonscience.org/resources/learning-hub/tutorials/calc-biomass-py 
+
 
 ## Expected outcomes
-The project will answer the questions in the problem statement with maps for total biomass, net primary productivity, and gross primary productivty at each site. 
+The project will answer the questions in the problem statement with maps for total biomass, net primary productivity, and gross primary productivty at each site. The project will also compare outcomes of each site to each other to gain a broad understanding of the terrestrial transport of carbon in each watershed. 
 
 ## References
+
 https://data.neonscience.org/ 
+
 https://modis.gsfc.nasa.gov/data/dataprod/mod17.php
+
+Jenkins et al., 2003
+https://www.fs.fed.us/ne/newtown_square/publications/technical_reports/pdfs/2004/ne_gtr319.pdf
