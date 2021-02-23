@@ -1,5 +1,5 @@
 # NEON CO2 Macrosystems Final Project
-Exploring terrestrial carbon transport at 5 sites in the United States managed by the National Ecological Observatory Network
+*Exploring terrestrial carbon transport at five sites across the United States managed by the National Ecological Observatory Network.
 
 By: Hannah Conroy 
 
