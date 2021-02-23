@@ -1,9 +1,7 @@
 # NEON CO2 Macrosystems Final Project
-Final project for GDA 2021 using NEON spatial data at 5 sites of interest
+
 
 By: Hannah Conroy 
-
-Short 1-2 sentence summary
 
 ## Background
 Knowledge of meta-ecosystem carbon transport is limited and many large uncertainties remain in estimates of biosphere carbon cycling, sources, and sinks. In particular, terrestrially derived CO2 from respiration in soils, geochemical weathering, and stream metabolism all contribute to net CO2 emissions from inland waters, but their relative contributions to meta-ecosystem carbon fluxes are not well-quantified across seasons or biomes.  This research will quantify multi-scale properties of watershed carbon cycling by linking ecosystem processes with meta-ecosystem carbon fluxes in watersheds that have varying terrestrial productivity, soil carbon stocks, climate, geology, and hydrologic regimes. 
@@ -23,12 +21,26 @@ The research will be conducted at five NEON sites across the United States selec
 <sup>1</sup>Used to download data off the NEON database for each site.
 
 ## Problem Statement 
-Problem statement, question(s) and/or objective(s)
+This project will attempt establish the differences between the five sites in terms of terrestrial carbon transport. Specifically, I hope to answer: 
+* What is the total biomass at each site? 
+* What is the net primary productivity at each site? 
+* What is the gross primary productivity at each site? 
 
 ## The Data 
 Datasets you will use (with links, if available)
-Neon collects multiple data sets with their Airborne Observation Platform (AOP). The data is processed at different levels 
+Neon collects multiple data sets with their Airborne Observation Platform (AOP). The data is processed at different levels and includes a discrete and full-waveform lidar to provide 3-D information about the landscape and an imaging spectrometer to allow discrimation of land cover types and vegetation. I will look at the following data for this project:
+
+Elevation - LiDAR 
 https://data.neonscience.org/data-products/DP3.30024.001 
+
+Fraction of incident photosynthetically active radiation (fPAR) 
+https://data.neonscience.org/data-products/DP2.30014.001
+
+Leaf area index (LAI)
+https://data.neonscience.org/data-products/DP2.30012.001
+
+Vegetation indices - NDVI - Normalized ratio of NIR and IR bands
+https://data.neonscience.org/data-products/DP2.30026.001
 
 ## The Tools
 
@@ -37,9 +49,8 @@ https://data.neonscience.org/data-products/DP3.30024.001
 
 
 ## Expected outcomes
-
+The project will answer the questions in the problem statement with maps for total biomass, net primary productivity, and gross primary productivty at each site. 
 
 Any other relevant information, images/tables, references, etc.
 ## References
-
 https://data.neonscience.org/ 
