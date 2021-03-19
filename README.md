@@ -23,8 +23,8 @@ The research will be conducted at five NEON sites across the United States selec
 ## Problem Statement 
 This project will attempt establish the differences between the five sites in terms of terrestrial carbon transport. Specifically, I hope to answer: 
 * What is the total biomass at each site? 
-* What is the net primary productivity at each site? 
-* What is the gross primary productivity at each site? 
+* What is the biomass averaged by area at each site? 
+* How does the biomass at each site change from year to year? 
 
 ## The Data 
 Neon collects multiple data sets with their Airborne Observation Platform (AOP). The data is processed at different levels and includes a discrete and full-waveform lidar to provide 3-D information about the landscape and an imaging spectrometer to allow discrimation of land cover types and vegetation. I will look at the following data for this project:
@@ -64,14 +64,9 @@ The project will answer the questions in the problem statement with maps for tot
 
 ## References
 
-https://data.neonscience.org/ 
+Jenkins et al. 2003. “Comprehensive Database of Diameter-based Biomass Regressions for North American Tree Species.” Forest Science. 
 
-https://modis.gsfc.nasa.gov/data/dataprod/mod17.php
+Gader, P. , 2020. “Calculate Vegetation Biomass from LiDAR Data in Python” https://www.neonscience.org/resources/learning-hub/tutorials/calc-biomass-py
 
-Jenkins et al., 2003
+NEON (National Ecological Observatory Network). Ecosystem structure (DP3.30015.001). https://data.neonscience.org (accessed March 12, 2021)
 
-https://www.fs.fed.us/ne/newtown_square/publications/technical_reports/pdfs/2004/ne_gtr319.pdf
-
-CASA model
-
-https://link.springer.com/article/10.1186/s13021-016-0049-6
